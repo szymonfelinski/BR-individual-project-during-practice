@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.90">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases>
+      <EURanges Id="1">
+        <EURange>
+          <Low ValueProvider="Const">0</Low>
+          <High ValueProvider="Const">100</High>
+        </EURange>
+      </EURanges>
+    </EURangesAliases>
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables>
+        <Variable Name="gMieszadlo" />
+        <Variable Name="gZb1_poziom" />
+        <Variable Name="gZb1_zawor" />
+        <Variable Name="gZb2_poziom" />
+        <Variable Name="gZb2_zawor" />
+        <Variable Name="gZb3_poziom" />
+        <Variable Name="gZb3_zawor_glowny" />
+        <Variable Name="gZb3_zawor_lewy" EURangesId="1" />
+        <Variable Name="gZb3_zawor_prawy" EURangesId="1" />
+      </GlobalVariables>
+      <Task Name="ClockSigna">
+        <Variable Name="Clock" />
+        <Variable Name="Mixer" />
+      </Task>
+      <Task Name="Tanks">
+        <Variable Name="FirstRun" />
+        <Variable Name="FirstValveOpenLevel" />
+        <Variable Name="gTanks">
+          <Variable Name="Stop" />
+          <Variable Name="Start" />
+          <Variable Name="Loop" />
+          <Variable Name="EnableStir" />
+          <Variable Name="StirTime" />
+          <Variable Name="FirstTankFilled" />
+          <Variable Name="SecondTankFilled" />
+          <Variable Name="MainTankFilled" />
+          <Variable Name="FirstTankMaxLevel" />
+          <Variable Name="SecondTankMaxLevel" />
+          <Variable Name="MainTankMaxLevel" />
+          <Variable Name="MainTankMinLevel" />
+          <Variable Name="FirstTankCapacity" />
+          <Variable Name="SecondTankCapacity" />
+          <Variable Name="MainTankCapacity" />
+          <Variable Name="CurrentState" />
+        </Variable>
+        <Variable Name="SecondValveOpenLevel" />
+        <Variable Name="TON_Stir">
+          <Variable Name="IN" />
+          <Variable Name="PT" />
+          <Variable Name="Q" />
+          <Variable Name="ET" />
+          <Variable Name="StartTime" />
+          <Variable Name="M" />
+          <Variable Name="Restart" />
+        </Variable>
+        <Variable Name="Status" />
+        <Variable Name="ManualControl" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

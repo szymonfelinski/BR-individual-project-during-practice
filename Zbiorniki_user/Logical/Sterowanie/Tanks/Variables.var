@@ -1,0 +1,9 @@
+VAR
+	TON_Stir : TON;
+	gTanks : TanksPara;
+	FirstValveOpenLevel : INT;
+	SecondValveOpenLevel : INT;
+	FirstRun : BOOL;
+	Status : USINT;
+	ManualControl : BOOL;
+END_VAR

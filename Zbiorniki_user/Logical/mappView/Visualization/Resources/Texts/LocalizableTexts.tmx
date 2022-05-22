@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT</prop>
+  </header>
+  <body>
+    <tu tuid="MainMenuText">
+      <tuv xml:lang="pl">
+        <seg>Główne menu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Main menu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MainMenuPage">
+      <tuv xml:lang="pl">
+        <seg>Główne menu</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Main menu</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmPage">
+      <tuv xml:lang="pl">
+        <seg>Alarmy</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Alarme</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Alarms</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AlarmPageText">
+      <tuv xml:lang="pl">
+        <seg>Strona z alarmami</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Page with alarms</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NavigationTooptip">
+      <tuv xml:lang="pl">
+        <seg>Nawigacja</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Navigation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ManualControlPage">
+      <tuv xml:lang="pl">
+        <seg>Ręczne sterowanie</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Manual Control</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Username">
+      <tuv xml:lang="pl">
+        <seg>Użytkownik</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Benutzer</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Username</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Password">
+      <tuv xml:lang="pl">
+        <seg>Hasło</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Passwort</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Password</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoginText">
+      <tuv xml:lang="pl">
+        <seg>Zaloguj</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Anmelden</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AuthFail">
+      <tuv xml:lang="pl">
+        <seg>Autoryzacja się nie powiodła</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Nicht authorisiert</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Authorisation failed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SetUserFail">
+      <tuv xml:lang="pl">
+        <seg>Nie udało się ustawić użytkownika</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Set User failed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LoginSuccess">
+      <tuv xml:lang="pl">
+        <seg>Poprawnie zalogowano</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Login successful</seg>
+      </tuv>
+    </tu>
+    <tu tuid="UserChanged">
+      <tuv xml:lang="pl">
+        <seg>Przełączono na:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>User changed to:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="LangSelector">
+      <tuv xml:lang="pl">
+        <seg>Język:</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Sprache:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Language:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MeasurementSelector">
+      <tuv xml:lang="pl">
+        <seg>System miar:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Measurement system:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StyleText">
+      <tuv xml:lang="pl">
+        <seg>Wygląd</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Stil</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Theme</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FlatThemeText">
+      <tuv xml:lang="pl">
+        <seg>Nowoczesny</seg>
+      </tuv>
+      <tuv xml:lang="de">
+        <seg>Modern</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Modern</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NormalThemeText">
+      <tuv xml:lang="pl">
+        <seg>Domyślny</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Default</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SystemStatus">
+      <tuv xml:lang="pl">
+        <seg>Stan systemu:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>System status:</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StatusRunning">
+      <tuv xml:lang="pl">
+        <seg>Uruchomiony</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Running</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StatusStopped">
+      <tuv xml:lang="pl">
+        <seg>Zatrzymany</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Stopped</seg>
+      </tuv>
+    </tu>
+    <tu tuid="StatusError">
+      <tuv xml:lang="pl">
+        <seg>Błąd</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="ManualControlText">
+      <tuv xml:lang="pl">
+        <seg>Ręczne sterowanie</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Manual control</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
